@@ -46,28 +46,9 @@
     margin-right: auto;
     padding-left: .5rem;
     padding-right: .5rem; 
+    /* border: 1px solid; */
 }
 
-
-
-/* 
-.btn {
-    background-color: var(--clr-yellow);
-    padding: .3rem 1.5rem;
-    border-radius: 20px;
-    cursor: pointer;
-    display: inline;
-    font-weight: 600;
-    font-size: 11px;
-    border: 2 px solid transparent;
-    transition: var(--transition);
-}
-
-.btn:hover {
-    background-color: transparent;
-    border-color: var(--clr-yellow);
-    color: var(--clr-yellow);
-} */
 
 
 

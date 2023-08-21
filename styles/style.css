@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
 :root {
-  /*Colors*/
   --primary-color: rgb(255, 92, 0);
+  --primary-10: rgba(255, 245, 238, 1);
+  /*Colors*/
   --text-color: rgb(25, 25, 28, 1);
   --primary-color-10: rgb(255, 245, 238);
   --neutral-100: rgb(25, 25, 28, 1);
   --neutral-10: #fff;
+  --neutral-20: #F8F9FD;
+  --neutral-30: #E4E4E4;
+  --neutral-60: #828487;
   --neutral-40: rgba(194, 194, 194, 1);
-  --linear-gradient:  linear-gradient(219deg, #FFAB18 0%, #FF2197 100%);
+  --gradient-primary:  linear-gradient(219deg, #FFAB18 0%, #FF2197 100%);
 
 
   /* sizes */
@@ -28,8 +32,13 @@
   --size-9xl: 8rem;
   --size-10xl: 10rem;
 
+  /* border */
+
+  --border-1: 1px solid var(--neutral-30);
+
   /* transition */
   --transition: all 800ms ease;
+  --transition-2: all 400ms ease;
 
   --border-radius: 1rem:
 }
@@ -60,4 +69,9 @@ input {
 
 .btn {
   border-radius: 60px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }

@@ -1,0 +1,5 @@
+.right__sidebar {
+  border-left: 1px solid var(--neutral-30, #e4e4e4);
+  background: var(--neutral-10, #fff);
+  background-color: rebeccapurple;
+}

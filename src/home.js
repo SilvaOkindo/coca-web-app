@@ -1,0 +1,7 @@
+import '../styles/modern-normalizer.css'
+import '../styles/style.css'
+import '../styles/components/header.css'
+import '../styles/components/main.css'
+import '../styles/components/left__sidebar.css'
+import '../styles/components/right__sidebar.css'
+import '../styles/utils.css'
