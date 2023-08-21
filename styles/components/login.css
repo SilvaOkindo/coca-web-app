@@ -1,0 +1,155 @@
+body {
+    background-image: url(/public/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.login{
+    width: 400px;
+    height: 550px;
+    background-color: var(--neutral-10);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 0px 24px 64px -16px rgba(25, 25, 28, 0.08)
+}
+
+.login__title {
+    font-size: var(--size-sm);
+}
+
+.login__description {
+    text-align: center;
+    font-size: var(--size-xs);
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: stretch;
+    padding: 1rem;
+}
+
+form > div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 60px;
+    border: 1px solid var(--neutral-40);
+    padding: 6px;
+}
+
+form > div input {
+    flex-grow: 1;
+    padding: 2px;
+    background-color: transparent;
+    font-size: var(--size-xs);
+    color: var(--neutral-40);
+}
+
+input::placeholder {
+    color: var(--neutral-40);
+}
+
+
+form > div > .fi {
+    font-size: var(--size-xs);
+    color: var(--neutral-40);
+    padding-left: 6px;
+}
+
+form label {
+    font-size: var(--size-xxs);
+    color: var(--neutral-40);
+}
+
+.forgot-pass {
+    font-size: var(--size-xs);
+    color: var(--primary-color);
+    margin-top: .8rem;
+}
+
+#login-btn{
+    background-color: var(--primary-color);
+    color: var(--neutral-10);
+    padding: var(--size-xxs);
+    border-radius: 60px;
+    font-size: var(--size-xs);
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-top: .8rem;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    border-color: var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+
+
+
+/* 2xl
+@media ( max-width: 1536px) {
+ 
+}
+
+
+/* xl */
+/* @media ( max-width: 1280px) {
+  
+
+} */
+
+
+
+/* lg*/
+/* @media ( max-width: 1024px) {
+
+
+} */
+
+/* md */
+@media ( max-width: 768px) {
+  .login {
+
+    margin-top: 2rem;
+    margin-left: 0;
+    width: 400px;
+
+  }
+}
+
+
+
+/* sm */
+/* @media ( max-width: 640px) {
+      
+} */
+
+
+/* xs */
+@media ( max-width: 475px) {
+   .login {
+    width: 100%;
+   }
+} 
