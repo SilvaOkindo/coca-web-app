@@ -41,3 +41,51 @@
 .left__sidebar > div > small {
     font-size: var(--size-xxs);
 }
+
+
+
+/* 2xl
+@media ( max-width: 1536px) {
+ 
+}
+
+
+/* xl */
+/* @media ( max-width: 1280px) {
+  
+
+} */
+
+
+
+/* lg*/
+@media ( max-width: 1024px) {
+
+  .left__sidebar div {
+    padding: 6px 8px;
+
+  }
+
+  .left__sidebar div svg {
+    height: 20px;
+  }
+
+}
+
+/* md */
+/* @media ( max-width: 768px) {
+  
+} */
+
+
+
+/* sm */
+/* @media ( max-width: 640px) {
+      
+} */
+
+
+/* xs */
+/* @media ( max-width: 475px) {
+   
+} */ 
